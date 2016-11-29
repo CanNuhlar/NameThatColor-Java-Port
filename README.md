@@ -25,7 +25,7 @@ findName method returns and ArrayList<String> and first item shows the hex code 
 
 # Known Issues
 
-1. Can't parse 4 char hex codes at the moment. Will be fixed when I get free time on my hands.
+1. ~~Can't parse 4 char hex codes(shorthand hex) at the moment. Will be fixed when I get free time on my hands.~~
 
 
 # Disclaimer

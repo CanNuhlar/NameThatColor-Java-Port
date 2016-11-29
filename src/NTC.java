@@ -1662,8 +1662,7 @@ public class NTC {
             color = "#" + color;
         }
         if(color.length() == 4){
-            //TODO implement slice into Java
-            //color = "#" + color.slice(1,1) + color.substr(1,1) + color.substr(2, 1) + color.substr(2, 1) +
+            color = "#" + color.charAt(1) + color.charAt(1) + color.charAt(2) + color.charAt(2) + color.charAt(3) + color.charAt(3);
         }
 
         r = this.rgb(color).get(0);

@@ -10,7 +10,7 @@ public class Main {
     {
         NTC ntc = new NTC();
         String matchStatus = "Approx. Color";
-        ArrayList<String> results = ntc.findName("#1212AB");
+        ArrayList<String> results = ntc.findName("#f0f");
         System.out.println("Color Hex: " + results.get(0));
         System.out.println("Color Name: " + results.get(1));
         if (results.get(2).equals("True")){
