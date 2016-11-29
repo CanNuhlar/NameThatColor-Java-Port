@@ -8,7 +8,7 @@ Import NTC.java to your class and then create a instance of it like this:
 
 ```java
 
-NTC ntc = new NTC();
+	NTC ntc = new NTC();
         String matchStatus = "Approx. Color";
         ArrayList<String> results = ntc.findName("#1212AB");
         System.out.println("Color Hex: " + results.get(0));
